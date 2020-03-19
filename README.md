@@ -11,10 +11,10 @@ This package is inspired by [vue-skelly](https://github.com/kyleoliveiro/vue-ske
 ### Install the package
 ```bash
 # For yarn
-$ yarn add skelly
+$ yarn add @midnight-theory/skelly
 
 # For npm
-$ npm i skelly
+$ npm i @midnight-theory/skelly
 ```
 
 ### Import component into your project
