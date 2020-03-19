@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - "13.1.0"
+before_script:
+  - yarn
+cache:
+  directories:
+    - node_modules
+
+jobs:
+  include:
+    - stage: build
+      script: yarn docs-build
+    - stage: Deployment to GitHub Pages
+      script:
+        - yarn docs-build
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        target_branch: gh-pages
+        local_dir: "./storybook-static"
+        github_token: $GITHUB_TOKEN
+        on:
+          branch: master

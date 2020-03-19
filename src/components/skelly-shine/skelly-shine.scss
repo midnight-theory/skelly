@@ -1,0 +1,23 @@
+@keyframes move-right {
+    from {
+        transform: translateX(-125%);
+    }
+
+    to {
+        transform: translateX(50%);
+    }
+}
+
+.skelly-shine {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 400%;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    will-change: transform;
+    animation-name: move-right;
+    animation-iteration-count: infinite;
+}

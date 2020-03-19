@@ -1,0 +1,35 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
+
+<Meta title="Types/Circle" />
+
+# Circle
+
+## Fixed size
+<Preview>
+  <Story name="Fixed size">
+    <div
+      class="skelly-circle"
+      data-size="64px"
+    ></div>
+  </Story>
+</Preview>
+
+## Custom color
+<Preview>
+  <Story name="Custom color">
+    <div
+      class="skelly-circle"
+      data-size="64px"
+      data-color="#80cccc"
+    ></div>
+  </Story>
+</Preview>
+
+## Full size
+<Preview>
+  <Story name="Full size">
+    <div style={{width: '320px', height: '320px'}}>
+      <div class="skelly-circle"></div>
+    </div>
+  </Story>
+</Preview>

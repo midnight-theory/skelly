@@ -1,0 +1,9 @@
+.skelly-circle {
+    .skelly-circle__shape {
+        position: relative;
+        border-radius: 100%;
+        padding-bottom: 100%;
+        overflow: hidden;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
+    }
+}

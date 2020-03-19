@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Skelly</title>
+    <link rel="stylesheet" href="../dist/bundle.min.css" />
+    <style>
+        .sample-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            padding: 24px 0;
+            border: 1px solid #111;
+        }
+
+        .sample-div > div  {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Skeleton loader demo for card</h1>
+    <div class="sample-div">
+        <div class="skelly-circle" data-size="120px"></div>
+        <div class="skelly-rectangle" data-width="180px" data-radius="100px"></div>
+        <div class="skelly-rectangle" data-width="200px" data-radius="100px"></div>
+        <div class="skelly-rectangle" data-width="200px" data-radius="100px"></div>
+    </div>
+    <script src="../dist/bundle.min.js"></script>
+</body>
+</html>

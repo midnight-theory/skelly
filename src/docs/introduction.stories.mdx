@@ -1,0 +1,33 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
+
+<Meta title="Getting started/Introduction" />
+
+# Introduction
+**Skelly** (v0.1.0) is collection of vanilla skeleton loader components
+
+
+## Usage
+### Install the package
+```bash
+# For yarn
+$ yarn add skelly
+
+# For npm
+$ npm i skelly
+```
+
+### Import component into your project
+```javascript
+import { InitAll } from "skelly";
+import "skelly/dist/bundle.min.css";
+
+window.onload = () => {
+    // Invoke the script
+    InitAll();
+}
+```
+
+In your html:
+```html
+<div class="skelly-circle"></div>
+```
