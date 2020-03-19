@@ -9,8 +9,6 @@ cache:
 
 jobs:
   include:
-    - stage: build
-      script: yarn docs-build
     - stage: Deployment to GitHub Pages
       script:
         - yarn docs-build

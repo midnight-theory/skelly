@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.org/midnight-theory/skelly.svg?branch=master)](https://travis-ci.org/midnight-theory/skelly)
+[![license](https://img.shields.io/github/license/midnight-theory/skelly.svg)](https://github.com/midnight-theory/skelly/blob/master/LICENSE)
+
 # Introduction
 **Skelly** (v0.1.0) is collection of vanilla skeleton loader components.
 
@@ -28,4 +31,10 @@ window.onload = () => {
 In your html:
 ```html
 <div class="skelly-circle"></div>
+```
+
+## For development
+```bash
+$ git clone https://github.com/midnight-theory/skelly
+$ yarn && yarn start
 ```
