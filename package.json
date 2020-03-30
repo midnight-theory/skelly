@@ -1,6 +1,6 @@
 {
   "name": "@midnight-theory/skelly",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Collection of vanilla skeleton loader components",
   "main": "dist/bundle.umd.js",
   "module": "dist/bundle.esm.js",
