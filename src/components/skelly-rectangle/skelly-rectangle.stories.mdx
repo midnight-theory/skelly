@@ -4,12 +4,24 @@ import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
 
 # Rectangle
 
-## Fixed size
+## Default usage
 <Preview>
-  <Story name="Fixed size">
+  <Story name="Default usage">
     <div
       class="skelly-rectangle"
       data-width="320px"
+    ></div>
+  </Story>
+</Preview>
+
+## Setting max-width and max-height
+<Preview>
+  <Story name="Setting max-width and max-height">
+    <div
+      class="skelly-rectangle"
+      data-width="500px"
+      data-max-width="70%"
+      data-max-height="120%"
     ></div>
   </Story>
 </Preview>
